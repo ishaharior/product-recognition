@@ -1,0 +1,34 @@
+# Smart Product Station — Python dependencies (Windows PowerShell setup)
+#   python -m venv .venv
+#   .venv\Scripts\Activate.ps1
+#   pip install -r requirements.txt
+
+# --- Web framework ---
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.4
+pydantic==2.13.5
+python-multipart==0.0.32
+python-dotenv==1.2.4
+websockets==17.2
+
+# --- Hardware ---
+pyserial==3.5
+
+# --- Vision / ML ---
+numpy==2.5.3
+pillow==12.3.0
+opencv-python==5.0.0.93
+PyYAML==6.0.3
+ultralytics==8.4.173
+# torch + torchvision: install the build that matches your platform FIRST, e.g.
+# CPU-only (smaller download):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# CUDA GPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# Then install this file (it will detect them as already satisfied):
+#   pip install -r requirements.txt
+
+# --- Tests ---
+pytest==9.1.1
+httpx==0.28.1

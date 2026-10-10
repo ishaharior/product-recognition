@@ -1,0 +1,21 @@
+# Ultralytics dataset configuration consumed by `scripts/train_model.py`.
+#
+# This template points at a prepared dataset under data/datasets/ (git-ignored).
+# Regenerate a real one automatically from raw annotations with:
+#
+#   python scripts/prepare_dataset.py config data/datasets/<name> data/dataset_config.yaml --names <class> [<class> ...]
+#
+# See docs/DATASETS.md for supported formats and docs/MODEL_TRAINING.md for
+# the full training workflow. No dataset is required to run the application.
+
+path: data/datasets/demo_station
+train: images/train
+val: images/val
+# test: images/test   # uncomment only if the split exists
+
+names:
+  0: demo cola can
+  1: demo orange juice
+  2: demo potato chips
+  3: demo mineral water
+  4: demo coffee box

@@ -1,0 +1,6 @@
+sku,name,category,description,expected_gross_weight_g,expected_net_weight_g,packaging_weight_g,weight_tolerance_pct,weight_spec_kind,colours,model_class_names
+DEMO-001,Demo Cola Can 330ml,beverages,"Simulated demo product - not a real retail item.",355.0,,15.0,8.0,gross,red#e63946,demo cola can
+DEMO-002,Demo Orange Juice 1L,beverages,"Simulated demo product - not a real retail item.",1090.0,,40.0,6.0,gross,orange#f77f00,demo orange juice
+DEMO-003,Demo Potato Chips 150g,snacks,"Simulated demo product - not a real retail item.",165.0,,12.0,10.0,gross,yellow#fcbf49,demo potato chips
+DEMO-004,Demo Mineral Water 500ml,beverages,"Simulated demo product - not a real retail item.",525.0,,12.0,5.0,gross,blue#457b9d|white#f5f5f5,demo mineral water
+DEMO-005,Demo Coffee Box 250g,pantry,"Simulated demo product - not a real retail item.",300.0,,35.0,9.0,gross,brown#8d5a2b,demo coffee box
